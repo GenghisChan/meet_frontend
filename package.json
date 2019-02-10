@@ -3,9 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "actioncable": "^5.2.1",
     "react": "^16.6.0",
+    "react-actioncable-provider": "^1.0.3",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.0"
+    "react-modal": "^3.6.1",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.0",
+    "react-swipe-card": "^0.1.4",
+    "react-swipy": "0.0.6",
+    "react-tinderable": "^0.1.8",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.83.0",
+    "simple-peer": "^9.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +34,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.5"
+  }
 }

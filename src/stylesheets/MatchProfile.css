@@ -1,0 +1,9 @@
+.profile {
+  border: 1px solid red;
+  float: right;
+}
+
+.profile-pic {
+  height: 200px;
+  width: 200px;
+}

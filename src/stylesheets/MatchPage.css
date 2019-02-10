@@ -1,0 +1,39 @@
+#match-div {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin: 20px;
+}
+
+#match-div button {
+  border-radius: 5px;
+  margin-right: 4px;
+}
+
+#match-div h2 {
+  color: #5c5858;
+  /* font-size: 20px; */
+}
+
+
+#match-div button {
+  display: inline-block;
+}
+
+.loading {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+#match-div img {
+
+width: 30%;
+height: auto;
+
+}

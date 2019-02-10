@@ -1,0 +1,30 @@
+#navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  background: #b5b1f4;
+}
+
+#navbar h1 {
+  display: inline-block;
+  margin: 10px;
+}
+
+.login-signup-div {
+  margin: 18px;
+  justify-items: end;
+}
+
+.login-signup-div span {
+  margin: 0 10px;
+  font-size: 17px;
+}
+
+.login-signup-div span a {
+  color: black
+}
+
+.login-signup-div span:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
